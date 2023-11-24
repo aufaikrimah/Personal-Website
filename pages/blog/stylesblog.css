@@ -1,0 +1,14 @@
+
+.container {
+    margin: 5%;
+}
+
+.row {
+    margin: 2% 0 2% 0;
+    border-bottom: 0.1rem solid rgb(187, 187, 187);
+}
+
+.col-4 {
+    margin: 2% 0 2% 0;
+    border-left: 0.1rem solid rgb(187, 187, 187);
+}

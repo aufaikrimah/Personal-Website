@@ -1,0 +1,63 @@
+
+
+#about {
+    margin: 6% 8%;
+}
+
+#projects {
+    margin: 6% 8%;
+}
+
+#blog {
+    margin: 6% 8%;
+}
+
+
+.row {
+    margin: 5% ;
+}
+
+.card-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+.card-projects .card {
+    width: 425px;
+    border: 1px solid #ddd;
+    padding: 2%;
+    margin: 0.5% 0;
+    text-align: center;
+}
+
+.card-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card-blog .card {
+    width: 425px;
+    border: 1px solid #ddd;
+    padding: 2%;
+    margin: 0.5% 0;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    margin: 10% 10% 0 10%;
+    border-top: 0.05rem solid rgb(187, 187, 187);
+
+}
+
+.footsub {
+    margin: 3% 0 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

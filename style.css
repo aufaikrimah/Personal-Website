@@ -1,0 +1,14 @@
+
+
+#home {
+    margin: 5%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 6.5%;
+    
+}
