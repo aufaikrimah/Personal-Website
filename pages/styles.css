@@ -1,4 +1,10 @@
+* {
+    color: white;
+}
 
+body {
+    background-color: #10001C !important;
+}
 
 #about {
     margin: 6% 8%;
@@ -12,6 +18,17 @@
     margin: 6% 8%;
 }
 
+#blog img {
+    margin: 0 1% 1% 0;
+}
+
+
+strong {
+    background: linear-gradient(to right, #DC77FF, #dea6fa); /* Sesuaikan warna gradient sesuai keinginan */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 
 .row {
     margin: 5% ;
@@ -21,7 +38,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  
 }
 
 .card-projects .card {
@@ -29,6 +45,14 @@
     border: 1px solid #ddd;
     padding: 3%;
     margin: 0.5%;
+    background-color: #10001C;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 4px 8px 0 #DC77FF;
+    cursor: pointer;
 }
 
 .card-blog {
@@ -42,6 +66,12 @@
     border: 1px solid #ddd;
     padding: 2%;
     margin: 0.5%;
+    background-color: #10001C;
+    transition: transform 0.3s ease;
+}
+
+.imgblog{
+    margin-bottom: 5%;
 }
 
 .footer {
@@ -72,11 +102,28 @@
 }
 
 .btn-bd-primary {
-    margin: 7% 0 0 0;
-}
+    padding: 0.5% 1%;
+    margin: 2% 0 0 0;
+    background-color: #1c0032;
+    color: white;
+    border: 1% solid rgb(196, 196, 196);
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+ 
+.btn-bd-primary:hover {
+    box-shadow: 0 4px 8px 0 #DC77FF;
+    cursor: pointer;
+} 
 
 #hobby h1 {
     margin: 20% 0;
+}
+
+.myhobby {
+    padding-top: 7%;
+    margin-bottom: 5%;
 }
 
 #blog a {

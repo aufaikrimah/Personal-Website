@@ -1,3 +1,10 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: #10001C !important;
+}
 
 .container {
     margin-top: 1%;
@@ -59,7 +66,7 @@ h1 {
 }
 
 a {
-    color: #000 !important; 
+    color: #c5c4c4 !important; 
     text-decoration: none !important; 
     margin: 1% 1% 0 0;
   }
