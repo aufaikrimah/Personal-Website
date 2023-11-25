@@ -22,9 +22,8 @@ body {
     margin: 0 1% 1% 0;
 }
 
-
 strong {
-    background: linear-gradient(to right, #DC77FF, #dea6fa); /* Sesuaikan warna gradient sesuai keinginan */
+    background: linear-gradient(to right, #DC77FF, #dea6fa);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -109,7 +108,7 @@ strong {
     border: 1% solid rgb(196, 196, 196);
     border-radius: 7px;
     cursor: pointer;
-  }
+}
 
  
 .btn-bd-primary:hover {
@@ -130,14 +129,11 @@ strong {
     color: #000 !important; 
     text-decoration: none !important; 
     margin: 1% 1% 0 0;
-  }
+}
 
-  #projects a {
+#projects a {
     color: #000 !important; 
     text-decoration: none !important; 
     margin: 1% 1% 0 0;
-  }
+}
   
-/* #blog a:hover {
-    
- } */

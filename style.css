@@ -8,7 +8,6 @@ body {
     background-repeat: no-repeat; 
 }
 
-
 #home {
     margin: 6%;
 }
@@ -47,7 +46,7 @@ body {
     border: 1% solid rgb(196, 196, 196);
     border-radius: 7px;
     cursor: pointer;
-  }
+}
 
  
 .btn-bd-primary:hover {
