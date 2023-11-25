@@ -1,15 +1,65 @@
 
 .container {
-    margin: 5%;
+    margin-top: 1%;
+    padding: 0 10% !important;
 }
 
 .row {
-    margin: 2% 0 2% 0;
-    border-bottom: 0.1rem solid rgb(187, 187, 187);
+    margin: 2% 0;
+    border-bottom: 0.1rem solid rgb(228, 228, 228);
 }
 
 .col-4 {
     margin: 2% 0 2% 0;
-    border-left: 0.1rem solid rgb(187, 187, 187);
+    border-left: 0.1rem solid rgb(228, 228, 228);
+    
 }
 
+.col-8 {
+    margin: 0 0 5% 0;
+}
+
+h1 {
+    margin-top: 3% !important;
+}
+
+.tabofcontent {
+    padding: 4%;
+}
+
+.tabofcontent h5 {
+    padding: 6% 0;
+}
+
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    margin: 10% 10% 0 10%;
+
+}
+
+.footsub {
+    margin: 3% 0 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.footsub h4 {
+    margin: 1% 0 0 0;
+}
+
+.footicon img{
+    margin: 1.5% 1% 2% 1%;
+}
+
+#star {
+    margin: 0 1% 1% 1%;
+}
+
+a {
+    color: #000 !important; 
+    text-decoration: none !important; 
+    margin: 1% 1% 0 0;
+  }
