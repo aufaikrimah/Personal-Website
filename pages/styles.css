@@ -4,18 +4,19 @@
 
 body {
     background-color: #10001C !important;
+    
 }
 
 #about {
-    margin: 6% 8%;
+    margin: 5% 8%;
 }
 
 #projects {
-    margin: 6% 8%;
+    margin: 5% 8%;
 }
 
 #blog {
-    margin: 6% 8%;
+    margin: 5% 8%;
 }
 
 #blog img {
@@ -30,7 +31,7 @@ strong {
 }
 
 .row {
-    margin: 5% ;
+    margin: 4% ;
 }
 
 .card-projects {
@@ -136,4 +137,16 @@ strong {
     text-decoration: none !important; 
     margin: 1% 1% 0 0;
 }
-  
+
+/* Tambahkan animasi untuk elemen dengan class 'row' */
+.myElement {
+    opacity: 0; /* Awalnya elemen tidak terlihat */
+    transform: translateY(50px); /* Geser elemen 50px ke bawah */
+    transition: opacity 0.5s, transform 0.5s; /* Animasi selama 0.5 detik */
+}
+
+/* Saat elemen muncul (dalam kasus ini, saat class 'show' ditambahkan) */
+.myElement.show {
+    opacity: 1;
+    transform: translateY(0);
+}
