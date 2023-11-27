@@ -5,25 +5,27 @@
 body {
     background-image: url(./img/bg.png);
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: repeat-y; 
+    background-position: center;
+    overflow: hidden;
 }
 
-#home {
-    margin: 6%;
-}
+
 
 .row {
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 1;
-    padding: 6.5%;
-    
+    padding: 0 5% 5% 5%;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .navbar-custom {
     background-color: #1c0032 !important;
   }
+
 
 #home a {
     text-decoration: none !important; 
@@ -54,14 +56,13 @@ body {
     cursor: pointer;
 } 
 
-/* Tambahkan animasi untuk elemen dengan class 'row' */
 .myElement {
-    opacity: 0; /* Awalnya elemen tidak terlihat */
-    transform: translateY(50px); /* Geser elemen 50px ke bawah */
-    transition: opacity 0.5s, transform 0.5s; /* Animasi selama 0.5 detik */
+    opacity: 0; 
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s; 
 }
 
-/* Saat elemen muncul (dalam kasus ini, saat class 'show' ditambahkan) */
+
 .myElement.show {
     opacity: 1;
     transform: translateY(0);

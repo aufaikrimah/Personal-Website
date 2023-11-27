@@ -138,15 +138,37 @@ strong {
     margin: 1% 1% 0 0;
 }
 
-/* Tambahkan animasi untuk elemen dengan class 'row' */
 .myElement {
-    opacity: 0; /* Awalnya elemen tidak terlihat */
-    transform: translateY(50px); /* Geser elemen 50px ke bawah */
-    transition: opacity 0.5s, transform 0.5s; /* Animasi selama 0.5 detik */
+    opacity: 0;
+    transform: translateY(50px); 
+    transition: opacity 0.5s, transform 0.5s;
 }
 
-/* Saat elemen muncul (dalam kasus ini, saat class 'show' ditambahkan) */
 .myElement.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+
+@media (max-width: 1200px) {
+
+    #elementhobby {
+        order: 2;
+    }
+
+    #titlehobby {
+        order: 1;
+    }
+
+    #videolandscape1 {
+        width: 50%;
+    }
+
+    #videolandscape2 {
+        width: 50%;
+    }
+
+    #aboutme {
+        padding: 5% 7% 15% 0;
+    }
 }

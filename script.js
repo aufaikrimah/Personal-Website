@@ -1,22 +1,6 @@
-
-
-// document.addEventListener("DOMContentLoaded", function() {
-//     // Ambil semua elemen dengan class 'myElement'
-//     var myElementElements = document.querySelectorAll('.myElement');
-
-//     // Tambahkan class 'show' pada setiap elemen dengan delay bertahap
-//     myElementElements.forEach(function(element, index) {
-//         setTimeout(function() {
-//             element.classList.add('show');
-//         }, index * 200); // 200 milidetik (0.2 detik) delay antara setiap elemen
-//     });
-// });
-
 document.addEventListener("DOMContentLoaded", function() {
-    // Ambil semua elemen dengan class 'myElement'
     var myElementElements = document.querySelectorAll('.myElement');
 
-    // Fungsi untuk mengecek apakah elemen sudah terlihat di viewport
     function isElementInViewport(el) {
         var rect = el.getBoundingClientRect();
         return (
@@ -27,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
         );
     }
 
-    // Fungsi untuk menambahkan class 'show' pada elemen yang terlihat
     function showElementsOnScroll() {
         myElementElements.forEach(function(element) {
             if (isElementInViewport(element)) {
@@ -36,10 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Tambahkan class 'show' pada elemen yang terlihat saat halaman dimuat
     showElementsOnScroll();
 
-    // Tambahkan event listener untuk memantau peristiwa scroll
     window.addEventListener('scroll', function() {
         showElementsOnScroll();
     });
