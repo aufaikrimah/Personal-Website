@@ -12,7 +12,7 @@ body {
 }
 
 #projects {
-    margin: 5% 8%;
+    margin: 5% 6%;
 }
 
 #blog {
@@ -31,7 +31,7 @@ strong {
 }
 
 .row {
-    margin: 4% ;
+    padding: 4%  0;
 }
 
 .card-projects {
@@ -41,7 +41,7 @@ strong {
 }
 
 .card-projects .card {
-    width: 400px;
+    width: 25rem;
     border: 1px solid #ddd;
     padding: 3%;
     margin: 0.5%;
@@ -49,7 +49,7 @@ strong {
     transition: transform 0.3s ease;
 }
 
-.card:hover {
+.card-projects .card:hover {
     transform: scale(1.02);
     box-shadow: 4px 4px 8px 0 #DC77FF;
     cursor: pointer;
@@ -62,12 +62,18 @@ strong {
 }
 
 .card-blog .card {
-    width: 400px;
+    width: 25rem;
     border: 1px solid #ddd;
-    padding: 2%;
-    margin: 0.5%;
+    padding: 3%;
+    margin: 4% 0.5% !important;
     background-color: #10001C;
     transition: transform 0.3s ease;
+}
+
+.card-blog .card:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 4px 8px 0 #DC77FF;
+    cursor: pointer;
 }
 
 .imgblog{
@@ -149,9 +155,12 @@ strong {
     transform: translateY(0);
 }
 
+.card {
+    width: 100%;
+  }
 
 @media (max-width: 1200px) {
-
+    
     #elementhobby {
         order: 2;
     }
@@ -172,3 +181,21 @@ strong {
         padding: 5% 7% 15% 0;
     }
 }
+
+@media (max-width: 500px) {
+
+    .card-projects .card {
+        width: 20rem;
+    }
+
+    .card-blog .card {
+        width: 20rem;
+    }
+
+    .row {
+        width: 22rem;
+    }
+}
+
+
+
